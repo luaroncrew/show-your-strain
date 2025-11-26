@@ -100,8 +100,14 @@
 }
 
 @layer base {
+  * {
+    font-family: var(--font-red-hat-text);
+  }
+
   body {
-    @apply bg-background text-foreground font-base;
+    @apply bg-background text-foreground;
+    font-family: var(--font-red-hat-text);
+    font-weight: var(--base-font-weight);
   }
 
   h1,
@@ -110,7 +116,8 @@
   h4,
   h5,
   h6 {
-    @apply font-heading;
+    font-family: var(--font-red-hat-text);
+    font-weight: var(--heading-font-weight);
   }
 }
 
