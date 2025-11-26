@@ -49,13 +49,13 @@ export default function WelcomePage() {
 
       {/* Right Side - Sign In + Logo */}
       <div className="flex-1 bg-background p-12 flex flex-col items-center justify-center">
-        <div className="flex flex-col items-center mb-8">
+        <div className="flex flex-col items-center mb-8 text-center">
           <Logo size={64} />
-          <h2 className="text-2xl font-bold text-foreground mt-4">
-            Show Your Strain
+          <h2 className="text-3xl font-bold text-foreground mt-4">
+            Know Your Limits
           </h2>
-          <p className="text-foreground/60 mt-1">
-            Track. Understand. Optimize.
+          <p className="text-foreground/60 mt-2 text-sm">
+            Visualize your effort, optimize your performance
           </p>
         </div>
 
