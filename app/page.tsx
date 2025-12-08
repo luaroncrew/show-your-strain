@@ -32,18 +32,6 @@ export default function WelcomePage() {
               about when to push harder and when to rest.
             </p>
           </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-foreground mb-2">
-              What You'll Get
-            </h2>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Real-time strain tracking and visualization</li>
-              <li>Personalized insights based on your activity patterns</li>
-              <li>Recovery recommendations to optimize performance</li>
-              <li>Historical data to track progress over time</li>
-            </ul>
-          </section>
         </div>
       </div>
 
