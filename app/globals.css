@@ -100,8 +100,15 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground font-base;
+    background-image:
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0)),
+      radial-gradient(circle at top, rgba(59, 130, 246, 0.1), transparent 26%);
   }
 
   h1,
@@ -111,6 +118,10 @@
   h5,
   h6 {
     @apply font-heading;
+  }
+
+  * {
+    box-sizing: border-box;
   }
 }
 
